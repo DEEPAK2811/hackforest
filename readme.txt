@@ -4,7 +4,6 @@ Api Server(Built by us using the constraint forest data)
 Arduino
 2.Connect the pins of arduino appropriately.
 3. Select arduino Uno from device list.
-4. Remove Tx and Rx of Bluetooth Module while uploading and reconnect it after upload is complete.
-Mobile Application
+4. Connect bluetooth module with app.
 5. Import the "Hack Forest" app.
 6. Compile and Run it.
