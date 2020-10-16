@@ -21,6 +21,7 @@ if ($conn->query($sql) === TRUE) {
     echo "Error";
 }
 
+    
 $myObj->Alert="0";
 $myObj->Alert1="0";
 $sql = "SELECT * FROM Location Where ID !=$id ";
@@ -90,8 +91,22 @@ echo "lol";
 }
 
 
-
-
+// relese memory 
+unset($conn);
+unset($sql);
+unset($myObj);
+unset($sql);
+unset($result);
+unset($row);
+unset($ch);
+unset($content);
+unset($array);
+unset($obj);
+unset($myObj);
+unset($arr);
+unset($handle);
+unset($data);
+unset($num);
 $conn->close();
 }
 else {
